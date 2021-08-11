@@ -3,13 +3,13 @@
 all: check test fmt
 
 check:
-	dune build @check
+	esy dune build @check
 
 clean:
-	dune clean
+	esy dune clean
 
 fmt:
-	dune build @fmt --auto-promote
+	esy dune build @fmt --auto-promote
 
 test:
-	dune runtest --auto-promote
+	esy dune runtest --auto-promote

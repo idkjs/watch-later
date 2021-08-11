@@ -1,5 +1,6 @@
 (lang dune 2.8)
 (name watch-later)
+(version 526f902-dirty)
 (generate_opam_files true)
 (cram enable)
 (license MIT)
@@ -13,6 +14,7 @@
  (synopsis "Utility for managing a queue of YouTube content")
  (description "")
  (depends
+ directories
   (async (and (>= v0.14.0) (< v0.15.0)))
   (async_interactive (and (>= v0.14.0) (< v0.15.0)))
   (async_ssl (and (>= v0.14.0) (< v0.15.0)))

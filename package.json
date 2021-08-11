@@ -1,0 +1,14 @@
+{
+    "source": "./watch-later.opam",
+    "override": {
+        "buildsInSource": "_build",
+        "dependencies": {
+            "ocaml": "4.12.x",
+            "@opam/directories": "*",
+            "@opam/reason": "*"
+        },
+        "devDependencies": {
+            "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam"
+        }
+    }
+}

@@ -24,3 +24,5 @@ setup.log
 
 *.install
 _opam/
+_esy
+node_modules
